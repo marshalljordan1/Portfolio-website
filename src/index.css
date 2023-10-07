@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BebaNeue";
+  src: url(./assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+body {
+  background-color: black;
+  font-family: "BebaNeue";
+}
