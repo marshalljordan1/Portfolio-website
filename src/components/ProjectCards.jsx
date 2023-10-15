@@ -3,10 +3,9 @@ import { styles } from "../styles";
 
 const ProjectCards = () => {
   return (
-    <div className="bg-white relative flex flex-col justify-start vh-100 px-5 mb-5">
-      <h1 className={`${styles.subTitle} mt-3`}>My projects</h1>
+    <div className="relative flex flex-col justify-start vh-100 px-5 mb-5">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 gap-4">
-        {projects.map((project) => (
+        {projects.toReversed().map((project) => (
           <a key={project.id} href={`${project.source_code_link}`}>
             <div className="project-card-container">
               <div

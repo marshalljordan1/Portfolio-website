@@ -1,15 +1,11 @@
-import { BrowserRouter } from "react-router-dom";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import ProjectCards from "./components/ProjectCards";
+import "./index.css";
+import Router from "./router/routes";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Hero />
-      <ProjectCards />
-    </BrowserRouter>
+    <>
+      <Router />
+    </>
   );
 }
 
