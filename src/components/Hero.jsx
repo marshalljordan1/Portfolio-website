@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col">
-      <div className="bg-black h-[450px] flex justify-center items-center">
+      <div className="bg-black h-[350px] flex justify-center items-center">
         <h1 className={`${styles.heroHeadText} text-center`}>
           Hello, I'm {textOptions[currentTextIndex]}
         </h1>
