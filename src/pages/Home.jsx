@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <h1 className={`${styles.subTitle} mt-3 ml-5`}>My projects</h1>
+      <h1 className={`${styles.subTitle} mt-6 mb-6 ml-5`}>My projects</h1>
       <ProjectCards />
     </div>
   );

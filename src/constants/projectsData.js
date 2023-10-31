@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Github Repositories",
+    name: "Github Repositories Project",
     image: github,
     source_code_link: "https://git-repo-search-kohl.vercel.app/",
   },
